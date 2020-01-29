@@ -12,6 +12,8 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.eastwood.tools.plugins:micro-module:1.4.0'
         classpath 'com.huawei.agconnect:agcp:1.0.0.300'
+
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 

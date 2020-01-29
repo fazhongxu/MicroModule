@@ -1,8 +1,12 @@
 apply plugin: 'groovy'
 apply plugin: 'java'
 
-group 'com.eastwood.tools.plugins'
+//group 'com.eastwood.tools.plugins'
 sourceCompatibility = 1.8
+
+// JitPack Maven
+apply plugin: 'com.github.dcendents.android-maven'
+group 'com.github.fazhongxu'
 
 repositories {
     google()
