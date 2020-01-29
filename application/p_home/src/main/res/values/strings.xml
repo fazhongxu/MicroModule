@@ -2,5 +2,6 @@
 <resources>
 
     <string name="home">home</string>
+    <string name="home_test">home%s</string>
 
 </resources>

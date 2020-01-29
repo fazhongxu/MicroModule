@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.eastwood.demo.application.common">
+    package="com.eastwood.demo.application.common"
+    xmlns:tools="http://schemas.android.com/tools">
         <application></application>
 </manifest>

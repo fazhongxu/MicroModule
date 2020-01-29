@@ -266,6 +266,7 @@ class CodeChecker {
 
     String getMicroModuleName(String absolutePath) {
         String moduleName = absolutePath.replace(project.projectDir.absolutePath, "")
+        if(moduleName.indexOf(ResourceMerged.SRC) < 0) return moduleName
         moduleName = moduleName.substring(0, moduleName.indexOf(ResourceMerged.SRC))
         if (File.separator == "\\") {
             moduleName = moduleName.replaceAll("\\\\", ":")
